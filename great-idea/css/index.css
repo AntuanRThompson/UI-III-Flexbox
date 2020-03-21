@@ -62,17 +62,14 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.flex-container1 {
-display: flex;
-flex-direction: row;
-}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .nav-section,
 nav,
 a,
 .logo {
   text-decoration: none;
   color: grey;
-  display: inline-block;
+  display: flex;
   margin-left: 40px;
   
 }
@@ -98,7 +95,7 @@ a:hover {
 
 .ButtonImg {
   width: 48.5%;
-  display: inline-block;
+  display: flex;
   margin-top: 30%; 
   position: relative;
 }
@@ -138,7 +135,7 @@ h1 {
   padding-top: 2%;
   padding-bottom: 2%;
   width: 100%;
-  display: inline-block;
+  display: flex;
 }
 
 .FeatAbout {
@@ -146,28 +143,30 @@ h1 {
   padding-right: 2px;
   padding-top: 5%;
   border-top: 1px solid black;
+  display: flex;
 }
 #features {
-  display: inline-block;
+  display: flex;
   width: 49.9%;
 }
 #about {
   width: 49%;
-  display: inline-block;
+  display: flex;
 }
+
 #Services {
   width: 32.5%;
-  display: inline-block;
+  display: flex;
 }
 #Product {
   width: 32.5%;
-  display: inline-block;
+  display: flex;
 }
 #Vision {
   padding-left: 2px;
   padding-right: 0;
   width: 34%;
-  display: inline-block;
+  display: flex;
 }
 .SerProVis {
   padding-left: .5%;
@@ -178,15 +177,11 @@ h1 {
 .Contact {
   padding: 1%;
   border-top: 1px solid black;
+  display: flex;
+  
 }
 #copyright {
   height: 1;
   padding: 60px;
   text-align: center;
 }
-
-
-
-
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */

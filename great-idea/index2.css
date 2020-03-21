@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 .nav-section {
 	padding: 1.5%;
 	position: fixed;
-	width: 95%;
+	width: 98%;
 	top: 0;
 	line-height: 3;
     display: flex;
@@ -77,12 +77,19 @@ h1, h2, h3, h4, h5 {
 nav, a {
     color: grey;
     display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10%;
 text-decoration: none;
 justify-content: space-evenly;
 }
+nav a:hover {
+    color: black;
+}
 
 .logo {
-    width: 15%;
+    width: 25%;
+    margin: auto;
+    
 }
 .flex-container1 {
     display: flex;
@@ -141,7 +148,8 @@ button {
     margin: 6%;
 }
 .flex-container3 ul li {
-    margin: 1%;
+    margin: 2%;
+
 }
 #Copyright {
     text-align: center;

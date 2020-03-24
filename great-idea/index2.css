@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.flexContainer1 .logo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.nav-section {
+	padding: 1.5%;
+	position: fixed;
+	width: 98%;
+	top: 0;
+	line-height: 3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+  }
+nav, a {
+    color: grey;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10%;
+text-decoration: none;
+justify-content: space-evenly;
+}
+nav a:hover {
+    color: black;
+}
+
+.logo {
+    width: 25%;
+    margin: auto;
+    
+}
+.flex-container1 {
+    display: flex;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.services-header-img {
+    margin: 4%;
+    width: 100%;
+}
+#services {
+    width: 100%;
+    margin: 4%;
+    font-size: 20px;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+}
+.flex-container2 {
+    width: 100%;
+    margin: 4%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 2px solid black;
+    
+}
+.flex-container2 section {
+    margin: 2%;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    width: 46%;
+    padding: 3%; 
+    
+}
+button {
+    width: 35%;
+    justify-self: start;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 8%;
+    background-color: honeydew;
+}
+.flex-container3 {
+    display: flex;
+    width: 100%;
+    margin: 4%;
+}
+.flex-container3 section {
+    margin: 1%;
+} 
+.flex-container3 ul {
+    list-style-type: square;
+    margin: 6%;
+}
+.flex-container3 ul li {
+    margin: 2%;
+
+}
+#Copyright {
+    text-align: center;
+    margin-top: 15%;
+}
